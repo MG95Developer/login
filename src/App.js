@@ -1,5 +1,11 @@
+import Login from '../src/components/Login';
+
 function App() {
-	return <div className="font-bold text-6xl">hello tailwind css</div>;
+	return (
+		<>
+			<Login />
+		</>
+	);
 }
 
 export default App;
